@@ -241,7 +241,8 @@ minimize memory usage, and 496 MB is pretty high for an app that builds strings.
 
 While there’s no magic memory number, for a frame of reference — if you’re building a Todo List application and it takes
 up 1 GB of memory, that is extremely high and there’s likely room for optimizations, whereas if you’re building a video
-game and it takes up 1 GB of memory, that would be really great and likely wouldn’t need optimizations.
+game and it takes up 1 GB o
+f memory, that would be really great and likely wouldn’t need optimizations.
 Step 19
 
 Select the “Allocate Too Much Memory” button. If you switch to the console tab, you can see approximately how many times

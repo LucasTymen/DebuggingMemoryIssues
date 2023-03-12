@@ -16,7 +16,6 @@ function logBoxHeight() {
     console.log(box.offsetHeight);
 }
 
-
 /*
 Things get problematic if you’ve changed the styles of the box before you ask for its height:
 */
@@ -49,7 +48,6 @@ function logBoxHeight() {
 
 /*
 For the most part you shouldn’t need to apply styles and then query values; using the last frame’s values should be sufficient. Running the style calculations and layout synchronously and earlier than the browser would like are potential bottlenecks, and not something you will typically want to do.
-
 
 Avoid layout thrashing #
 There’s a way to make forced synchronous layouts even worse: do lots of them in quick succession. Take a look at this code:
